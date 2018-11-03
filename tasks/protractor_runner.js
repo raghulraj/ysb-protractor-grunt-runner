@@ -25,7 +25,7 @@ module.exports = function(grunt) {
     // '.../node_modules/protractor/bin/webdriver-manager'
     var webdriverManagerPath = path.resolve(protractorMainPath, '../../bin/webdriver-manager');
     // '../node_modules/protractor-flake/bin/protractor-flake'
-    var protractorFlakeBinPath = path.resolve(protractorMainPath, '../../../../../node_modules/protractor-flake/bin/protractor-flake');
+    var protractorFlakeBinPath = path.resolve(protractorMainPath, '../../../../node_modules/protractor-flake/bin/protractor-flake');
 
     // Merge task-specific and/or target-specific options with these defaults.
     var opts = this.options({
