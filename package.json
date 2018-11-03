@@ -1,5 +1,5 @@
 {
-  "name": "ysb-protractor-grrunt-runner",
+  "name": "ysb-protractor-grunt-runner",
   "description": "A Grunt plugin for running protractor runner with protractor flake",
   "version": "1.0.0",
   "homepage": "https://github.com/raghulraj/ysb-protractor-grunt-runner",
