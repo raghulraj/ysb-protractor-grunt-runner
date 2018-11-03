@@ -1,0 +1,46 @@
+{
+  "name": "ysb-protractor-grrunt-runner",
+  "description": "A Grunt plugin for running protractor runner with protractor flake",
+  "version": "1.0.0",
+  "homepage": "https://github.com/raghulraj/ysb-protractor-grunt-runner",
+  "author": {
+    "name": "Raghul Raj V",
+    "email": "raghulraj@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raghulraj/ysb-protractor-grunt-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teerapap/protractor-grunt-runner/issues"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 6.9.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "protractor": "^5.0.0",
+    "split": "~1.0.0",
+    "through2": "~2.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "protractor",
+    "selenium",
+    "angular",
+    "angularjs"
+  ]
+}
